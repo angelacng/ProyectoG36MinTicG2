@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Front End Reto 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type='text/javascript' src="myScript.js"></script>
+</head>
+
+<body>
+    <h1> Información Barcos </h1>
+    <br>
+    <input type="number" id="idBarco" placeholder="Id">&nbsp;
+    <input type="text" id="marcaBarco" placeholder="Marca">&nbsp;
+    <input type="number" id="modeloBarco" placeholder="Modelo">&nbsp;
+    <input type="number" id="id_categoria" placeholder="Id Categoría">&nbsp;
+    <input type="text" id="nombreBarco" placeholder="nombre"><br><br>
+    <br>
+    <button onclick="guardarBarco()">GUARDAR BARCO</button>&nbsp;&nbsp;
+    <button onclick="actualizarBarco()">ACTUALIZAR BARCO</button>&nbsp;&nbsp;
+    <button onclick="leerBarcos()">CONSULTAR BARCOS</button>&nbsp;&nbsp;
+    <button onclick="leerBarcoId()">CONSULTAR BARCO POR ID</button><br><br>
+    
+ 
+    <div id="tablaBarcos"></div>
+</body>
+
+</html>
